@@ -6,9 +6,11 @@ export default function App() {
   const { colorScheme, toggleColorScheme } = useColorScheme();
   return (
     <View className='flex-1 items-center justify-center bg-gray-200 dark:bg-black' >
-      <Switch value={colorScheme === 'dark'} onChange={toggleColorScheme}></Switch>
-      <Text className='dark:text-white'>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <View className='flex-row w-full gap-3 items-center'>
+        <Text className='dark:text-white text-xl font-bold'>New Collection</Text>
+        <Switch value={colorScheme === 'dark'} onChange={toggleColorScheme}></Switch>
+      </View>
+      <StatusBar style={colorScheme === 'dark' ? 'light' : 'dark'} />
     </View>
   );
 }
