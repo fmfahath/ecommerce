@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Text, View, TouchableOpacity, Image } from 'react-native';
 import { useColorScheme } from 'nativewind';
+import { AntDesign } from '@expo/vector-icons';
 
 
 export default function ProductCard({ image, category, title, price, description }) {
