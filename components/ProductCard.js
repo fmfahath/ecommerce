@@ -40,7 +40,7 @@ export default function ProductCard({ image, category, title, price, description
                     <Text className='text-2xl font-extrabold dark:text-white'>${price * count}</Text>
                 </View>
 
-                <Text>{description}</Text>
+                <Text className='text-sm text-black/60 dark:text-white/70 mt-2' numberOfLines={3}>{description}</Text>
             </View>
         </View>
     )
