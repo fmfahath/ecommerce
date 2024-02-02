@@ -9,15 +9,15 @@
   <br><br>
 
   <div>
-    <img src='https://github.com/fmfahath/ecommerce/assets/95971934/d692ace5-9402-4e30-a8d0-7d7f3f27f20a' height='550px' width='280px' />
-     <img src='https://github.com/fmfahath/ecommerce/assets/95971934/593e1ecf-d3f7-481d-a3f7-20eee9d35f5c' height='550px' width='280px' />
-    <img src='https://github.com/fmfahath/ecommerce/assets/95971934/ce6a933d-b3b2-4cf5-987c-59550a8ada18' height='550px' width='280px' />
+    <img src='https://github.com/fmfahath/ecommerce/assets/95971934/da5c1f03-6884-4d40-9cca-3f677a285eae' height='550px' width='280px' />
+    <img src='https://github.com/fmfahath/ecommerce/assets/95971934/abddc280-9e7c-43e1-8796-e6f0b736f71f' height='550px' width='280px' />
   </div>  
 </div>
 
 
 <hr>
-<h2>Add NativeWind - TailwindCSS</h2>
+<img alt="Static Badge" src="https://img.shields.io/badge/npm-dependencies-gray?logo=npm&logoColor=white&labelColor=red" >
+<h2>Add NativeWind - TailwindCSS</h2> 
 
 <br>
 
@@ -33,4 +33,11 @@
 <br>
 <p>if error occure, downgraded to version 3.3.2</p>
 <img src='https://github.com/fmfahath/ecommerce/assets/95971934/4734d36b-f0a0-419f-853e-ff7f2f1e3aab'>
+
+<hr>
+<img alt="Static Badge" src="https://img.shields.io/badge/npm-dependencies-gray?logo=npm&logoColor=white&labelColor=red" >
+<h2>React Native - Vector icons</h2> 
+<img src='https://github.com/fmfahath/ecommerce/assets/95971934/d45a7048-b556-429b-8c34-80a02ec5fe4e'>
+
+
 
