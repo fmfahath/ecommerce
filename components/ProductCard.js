@@ -5,7 +5,7 @@ import { AntDesign } from '@expo/vector-icons';
 
 
 export default function ProductCard({ image, category, title, price, description }) {
-    const [coun, setCount] = React.useState(1);
+    const [count, setCount] = React.useState(1);
     const { colorScheme } = useColorScheme();
 
     return (
@@ -20,8 +20,27 @@ export default function ProductCard({ image, category, title, price, description
             <View className='mt-5'>
                 <Text className='text-sm text-black/60 dark:text-white/70'>{category}</Text>
                 <Text className='text-lg font-semibold dark:text-white'>{title}</Text>
+                <View className='flex-row justify-between mt-1 mb-1'>
+                    <View className='flex-row items-center gap-3'>
+                        <AntDesign
+                            name='minuscircleo'
+                            size={24}
+                            color={colorScheme === 'light' ? 'black' : 'white'}
+                            onPress={() => setCount(count - 1)}
+                        />
+                        <Text className='text-xl dark:text-white'>{count}</Text>
+                        <AntDesign
+                            name='pluscircleo'
+                            size={24}
+                            color={colorScheme === 'light' ? 'black' : 'white'}
+                            onPress={() => setCount(count + 1)}
+                        />
+
+                    </View>
+                    <Text className='text-2xl font-extrabold dark:text-white'>${price * count}</Text>
+                </View>
+
                 <Text>{description}</Text>
-                <Text>{price}</Text>
             </View>
         </View>
     )
