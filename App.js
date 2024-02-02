@@ -11,7 +11,7 @@ export default function App() {
     <SafeAreaView className='flex-1 items-center justify-center bg-gray-200 dark:bg-black'>
       <View  >
         <View className='flex-row w-full gap-3 items-center'>
-          <Text className='dark:text-white text-xl font-bold'>New Collection</Text>
+          <Text className='dark:text-white text-xl font-bold'>Mode</Text>
           <Switch value={colorScheme === 'dark'} onChange={toggleColorScheme}></Switch>
         </View>
         <ProductList />
