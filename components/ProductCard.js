@@ -39,8 +39,10 @@ export default function ProductCard({ image, category, title, price, description
                     </View>
                     <Text className='text-2xl font-extrabold dark:text-white'>${price * count}</Text>
                 </View>
-
                 <Text className='text-sm text-black/60 dark:text-white/70 mt-2' numberOfLines={3}>{description}</Text>
+                <TouchableOpacity className='flex-row justify-center w-10/12 self-center mt-3 bg-black dark:bg-white p-3 rounded-full'>
+                    <Text className='text-white dark:text-black font-bold'>Add To Cart</Text>
+                </TouchableOpacity>
             </View>
         </View>
     )
