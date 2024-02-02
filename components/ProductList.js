@@ -10,6 +10,7 @@ export default function ProductList() {
             keyExtractor={(product) => product.id}
             // renderItem={({ item }) => <Text>{item.title}</Text>}
             renderItem={({ item }) => <ProductCard {...item} />}
+            contentContainerStyle={{ paddingHorizontal: 15 }}
         />
     )
 }
