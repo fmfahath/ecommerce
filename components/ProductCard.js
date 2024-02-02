@@ -8,7 +8,7 @@ export default function ProductCard({ image, category, title, price, description
     const { colorScheme } = useColorScheme();
 
     return (
-        <View className='w-full bg-white dark:bg-gray-50/10 rounded-3xl p-5'>
+        <View className='w-full bg-white dark:bg-gray-50/10 rounded-3xl p-5 my-5'>
             <Text>{title}</Text>
             <Text>{description}</Text>
             <Text>{price}</Text>
