@@ -16,9 +16,12 @@ export default function ProductCard({ image, category, title, price, description
                     style={{ resizeMode: 'contain' }}
                 />
             </View>
-            <Text>{title}</Text>
-            <Text>{description}</Text>
-            <Text>{price}</Text>
+            <View className='mt-5'>
+                <Text className='text-sm text-black/60 dark:text-white/70'>{category}</Text>
+                <Text className='text-lg font-semibold dark:text-white'>{title}</Text>
+                <Text>{description}</Text>
+                <Text>{price}</Text>
+            </View>
         </View>
     )
 }
